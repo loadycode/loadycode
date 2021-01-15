@@ -95,12 +95,12 @@ body{
 }#coddy-sources-py:hover{
 	transition:1s;
 	transform:translateY(-10px)translateX(150px);
-}#coddy-sources-kt{
+}#coddy-sources-js{
 	background:#9400d3;
 	width:70px;
 	height:50px;
 	transform:translateY(0px)translateX(160px);
-}#coddy-sources-kt:hover{
+}#coddy-sources-js:hover{
 	transition:1s;
 	transform:translateY(-10px)translateX(160px);
 }#first-link-canvy{margin-top:-150px;
