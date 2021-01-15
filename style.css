@@ -1,9 +1,9 @@
 body{
-	background:black;
+	background:white;
 	user-select:none;
 }h1,h2,h3,h4,h5,h6,p,article,a{
 	animation:echo-anim 0.5s;
-	color:white;
+	color:black;
 	text-decoration:none;
 	font-family:Consolas;
 }.border{
