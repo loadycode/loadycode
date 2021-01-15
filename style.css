@@ -1,0 +1,177 @@
+body{
+	background:black;
+	user-select:none;
+}h1,h2,h3,h4,h5,h6,p,article,a{
+	animation:echo-anim 0.5s;
+	color:white;
+	text-decoration:none;
+	font-family:Consolas;
+}.border{
+	animation:echo-anim 0.5s;
+	background:white;
+	height:15px;
+	width:40%;
+	border-radius:15px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:90px;
+}.link{
+	transition:1s;
+	text-align:center;
+}.link:hover{
+	transform:translateY(-5px);
+	transition:1s;
+	color:gray;
+}.article{
+	font-size:350%;
+	margin-left:5%;
+}.underarticle{
+	color:gray;
+	margin-top:-40px;
+	margin-left:15%;
+}.description{
+	font-size:250%;
+	margin-left:5%;
+}#logo{
+	transition:1s;
+	text-align:center;
+	margin-top:50px;
+	margin-bottom:70px;
+}.canvy-window{
+	animation:echo-anim 0.5s;
+	display:inline-flex;
+	width:400px;
+	height:300px;
+	border-radius:15px;
+}#canvy-window-edit{
+	transition:1s;
+	background-image:url("img/canvyEdit.png");
+	transform:translateX(390px)translateY(-250px);
+}#canvy-window-edit:hover{
+	transition:1s;
+	transform:translateX(390px)translateY(-260px);
+}#canvy-window-play{
+	transition:1s;
+	background-image:url("img/canvyPlay.png");
+	transform:translateX(-70px)translateY(-180px);
+}#canvy-window-play:hover{
+	transition:1s;
+	transform:translateX(-70px)translateY(-190px);
+}.sources{
+	animation:echo-anim 0.5s;
+	transition:1s;
+	display:inline-flex;
+	border-radius:10px;
+	justify-content:center;
+}#canvy-sources-py:hover{
+	transition:1s;
+	transform:translateY(-270px)translateX(50px);
+}#canvy-sources-js:hover{
+	transition:1s;
+	transform:translateY(-270px)translateX(60px);
+}#canvy-sources-kt:hover{
+	transition:1s;
+	transform:translateY(-270px)translateX(70px);
+}#canvy-sources-py{
+	background:blue;
+	width:50px;
+	height:50px;
+	transform:translateY(-260px)translateX(50px);
+}#canvy-sources-js{
+	background:orange;
+	width:50px;
+	height:50px;
+	transform:translateY(-260px)translateX(60px);
+}#canvy-sources-kt {
+	background:#9400d3;
+	width:70px;
+	height:50px;
+	transform:translateY(-260px)translateX(70px);
+}#coddy-sources-py{
+	background:blue;
+	width:50px;
+	height:50px;
+	transform:translateY(0px)translateX(150px);
+}#coddy-sources-py:hover{
+	transition:1s;
+	transform:translateY(-10px)translateX(150px);
+}#coddy-sources-kt{
+	background:#9400d3;
+	width:70px;
+	height:50px;
+	transform:translateY(0px)translateX(160px);
+}#coddy-sources-kt:hover{
+	transition:1s;
+	transform:translateY(-10px)translateX(160px);
+}#first-link-canvy{margin-top:-150px;
+}#first-link-coddy{margin-top:-300px;
+}#coddy-window{
+	background-size:100%;
+	background-position:50%;
+	animation:echo-anim 0.5s;
+	transition:1s;
+	background-image:url("img/coddy.png");
+	width:600px;
+	height:400px;
+	border-radius:15px;
+	transform:translateX(350px)translateY(-50px);
+}.coddy-ul{
+	transition:1s;
+	line-height:50px;
+	transform:translateY(-350px);
+	margin-left:4%;
+	width:300px;
+}.coddy-ul:hover{
+	color:gray;
+	transition:1s;
+	transform:translateY(-360px);
+}#coddy-ul-design{
+	margin-left:4%;
+}#coddy-ul-syntax{
+}#coddy-ul-tabs{
+	margin-left:13%;
+	width:200px;
+}#coddy-ul-fast{
+	margin-left:4%;
+	width:305px;
+}#coddy-window:hover{
+	transition:1s;
+	transform:translateX(350px)translateY(-60px);
+}#author,#year{text-align:center;
+}#author{margin-top:-50px;
+}#splash{ 
+	animation:splash-anim 2s infinite;
+	margin-top:20%;
+	margin-bottom:29%;
+	text-align:center;
+}#coddy{
+	margin-left:0%;
+	text-align:center;
+}#coddy-description{
+	margin-left:0%;
+	text-align:center;
+}::-webkit-scrollbar{
+	width: 10px;
+}::-webkit-scrollbar-thumb{ 
+    background:white;
+    border-radius:20px;
+}@media screen and (min-width:0px) and (max-width:1000px){
+	.article{margin-left:0%}
+	.underarticle{margin-left:0%}
+	.description{margin-left:0%}
+	#splash{margin-top:50%;margin-bottom:120%}
+	.canvy-window{display:none;}
+	.sources{display:none;}
+	h1,h2,h3,h4,h5,h6,p,article,a{text-align:center;}
+	#coddy-sources-python{display:none;}
+	#first-link-canvy{margin-top:0px;}
+	#first-link-coddy{margin-top:50px;}
+	.article,.description{margin-left:0%;}
+	#coddy-window{display:none}
+	.coddy-ul{display:none}
+}@media screen and (min-width:1440px) and (max-width:1440px){
+	#coddy-window{transform:translateX(650px)translateY(-50px);}
+	#coddy-window:hover{transform:translateY(-60px)translateX(650px);}
+	#coddy-sources-py{transform:translateY()translateX();}
+}@keyframes splash-anim{from{opacity:0}50%{opacity:1}to{opacity:0}}
+@keyframes echo-anim{from{opacity:0}to{opacity:1}}
