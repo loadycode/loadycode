@@ -46,17 +46,17 @@ body{
 }#canvy-window-edit{
 	transition:1s;
 	background-image:url("img/canvyEdit.png");
-	transform:translateX(390px)translateY(-250px);
+	transform:translateX(450px)translateY(-250px);
 }#canvy-window-edit:hover{
 	transition:1s;
-	transform:translateX(390px)translateY(-260px);
+	transform:translateX(450px)translateY(-260px);
 }#canvy-window-play{
 	transition:1s;
 	background-image:url("img/canvyPlay.png");
-	transform:translateX(-70px)translateY(-180px);
+	transform:translateX(-10px)translateY(-180px);
 }#canvy-window-play:hover{
 	transition:1s;
-	transform:translateX(-70px)translateY(-190px);
+	transform:translateX(-10px)translateY(-190px);
 }.sources{
 	animation:echo-anim 0.5s;
 	transition:1s;
@@ -69,9 +69,6 @@ body{
 }#canvy-sources-js:hover{
 	transition:1s;
 	transform:translateY(-270px)translateX(60px);
-}#canvy-sources-kt:hover{
-	transition:1s;
-	transform:translateY(-270px)translateX(70px);
 }#canvy-sources-py{
 	background:blue;
 	width:50px;
@@ -82,27 +79,22 @@ body{
 	width:50px;
 	height:50px;
 	transform:translateY(-260px)translateX(60px);
-}#canvy-sources-kt {
-	background:#9400d3;
-	width:70px;
-	height:50px;
-	transform:translateY(-260px)translateX(70px);
 }#coddy-sources-py{
 	background:blue;
 	width:50px;
 	height:50px;
-	transform:translateY(0px)translateX(150px);
+	transform:translateY(0px)translateX(180px);
 }#coddy-sources-py:hover{
 	transition:1s;
-	transform:translateY(-10px)translateX(150px);
+	transform:translateY(-10px)translateX(180px);
 }#coddy-sources-js{
-	background:#9400d3;
-	width:70px;
+	background:orange;
+	width:50px;
 	height:50px;
-	transform:translateY(0px)translateX(160px);
+	transform:translateY(0px)translateX(190px);
 }#coddy-sources-js:hover{
 	transition:1s;
-	transform:translateY(-10px)translateX(160px);
+	transform:translateY(-10px)translateX(190px);
 }#first-link-canvy{margin-top:-150px;
 }#first-link-coddy{margin-top:-300px;
 }#coddy-window{
