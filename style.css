@@ -86,7 +86,7 @@ h1,h2,h3,h4,p,a {
 	transform: translateX(30px)translateY(-100px);
 }
 #coddy-window1 {
-	transform: translateX(70px)translateY(0px);
+	transform: translateX(50px)translateY(0px);
 }
 .article {
 	font-size: 260%;
