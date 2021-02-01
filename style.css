@@ -76,6 +76,9 @@ h1,h2,h3,h4,p,a {
 #shorter {
 	margin-top:-220px;
 }
+#author {
+	text-align: center;
+}
 @media (min-width:0px) and (max-width:1000px) {
 
 .coddy-window {
