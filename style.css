@@ -88,6 +88,12 @@ h1,h2,h3,h4,p,a {
 #coddy-window1 {
 	transform: translateX(50px)translateY(0px);
 }
+#coddy-window0:hover {
+	transform: translateX(30px)translateY(-100px);
+}
+#coddy-window1:hover {
+	transform: translateX(50px)translateY(0px);
+}
 .article {
 	font-size: 260%;
 	line-height: 70px;
