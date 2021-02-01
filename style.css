@@ -78,5 +78,6 @@ h1,h2,h3,h4,p,a {
 }
 @media (min-width:0px) and (max-width:1000px) {
 	.coddy-window { display: none }
+	.description { font-size: 250% }
 	#shorter { margin-top: 0px }
 }
