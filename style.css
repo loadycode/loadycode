@@ -89,7 +89,7 @@ h1,h2,h3,h4,p,a {
 	transform: translateX(30px)translateY(0px);
 }
 #coddy-window0:hover {
-	transform: translateX(10px)translateY(-100px);
+	transform: translateX(15px)translateY(-100px);
 }
 #coddy-window1:hover {
 	transform: translateX(30px)translateY(0px);
