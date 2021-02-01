@@ -77,7 +77,19 @@ h1,h2,h3,h4,p,a {
 	margin-top:-220px;
 }
 @media (min-width:0px) and (max-width:1000px) {
-	.coddy-window { display: none }
-	.description { font-size: 250% }
-	#shorter { margin-top: 0px }
+
+.coddy-window {
+	display: none;
+}
+.article {
+	font-size: 260%;
+	line-height: 70px;
+}
+.description {
+	font-size: 200%;
+	line-height: 50px;
+}
+#shorter {
+	margin-top: 0px;
+}
 }
