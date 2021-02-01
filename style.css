@@ -73,6 +73,10 @@ h1,h2,h3,h4,p,a {
 	width: 60%;
 	height: 10px;
 }
+#shorter {
+	margin-top:-220px;
+}
 @media (min-width:0px) and (max-width:1000px) {
-.coddy-window{display:none}
+	.coddy-window { display: none }
+	#shorter { margin-top: 0px }
 }
