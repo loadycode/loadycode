@@ -79,7 +79,14 @@ h1,h2,h3,h4,p,a {
 @media (min-width:0px) and (max-width:1000px) {
 
 .coddy-window {
-	display: none;
+	width: 300px;
+	height: 200px
+}
+#coddy-window0 {
+	transform: translateX(30px)translateY(-100px);
+}
+#coddy-window1 {
+	transform: translateX(70px)translateY(0px);
 }
 .article {
 	font-size: 260%;
@@ -90,6 +97,6 @@ h1,h2,h3,h4,p,a {
 	line-height: 50px;
 }
 #shorter {
-	margin-top: 0px;
+	margin-top: -40px;
 }
 }
