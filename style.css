@@ -93,18 +93,18 @@ h1,h2,h3,h4,p,a,#logo,.arrow {
 	background-size: 100%;
 }
 #coddy-window0 {
-	transform: translateX(5px)translateY(-100px);
+	transform: translateX(2px)translateY(-100px);
 	background-image: url(screenshots/0.png);
 }
 #coddy-window1 {
-	transform: translateX(20px)translateY(0px);
+	transform: translateX(17px)translateY(0px);
 	background-image: url(screenshots/1.png);
 }
 #coddy-window0:hover {
-	transform: translateX(15px)translateY(-100px);
+	transform: translateX(2px)translateY(-100px);
 }
 #coddy-window1:hover {
-	transform: translateX(30px)translateY(0px);
+	transform: translateX(17px)translateY(0px);
 }
 .article {
 	font-size: 260%;
