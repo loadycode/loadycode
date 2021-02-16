@@ -88,8 +88,9 @@ h1,h2,h3,h4,p,a,#logo,.arrow {
 	font-family: Arial;
 }
 .coddy-window {
-	width: 300px;
-	height: 200px
+	width: 350px;
+	height: 225px;
+	background-size: 50%;
 }
 #coddy-window0 {
 	transform: translateX(15px)translateY(-100px);
