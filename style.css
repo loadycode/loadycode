@@ -1,84 +1,92 @@
 body {
 	user-select: none;
-	background: linear-gradient(55deg,gray,pink);
+	background: white;
 }
 h1,h2,h3,h4,p,a {
-	animation: fadeout 2s;
 	font-family: Consolas;
-	color: white;
+	color: black;
 	text-decoration: none;
 }
 #logo {
-	animation: fadeout 2s;
+	color: white;
+	width: 160px;
+	background: linear-gradient(55deg,gray,pink);
 	font-family: Consolas, bold;
 	margin-top: 30px;
 	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.gr-bg {
+	color: white;
+	width: 160px;
+	background: linear-gradient(55deg,gray,pink);
+	font-family: Consolas, bold;
+	margin-top: 30px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 .article {
-	animation: fadeout 2s;
 	margin-top: 60px;
 	line-height: 100px; 
 	text-align: center;
 	font-size: 350%;
 }
 .description {
-	animation: fadeout 2s;
 	margin-top: 60px;
 	line-height: 80px; 
 	text-align: center;
 	font-size: 300%;
 }
 .link {
-	animation: fadeout 2s;
-	transition: 1s;
 	margin-top: 60px;
 	line-height: 20px; 
 	text-align: center;
 	font-size: 300%;
 }
-.link:hover {
-	transition: 1s;
-	transform: translateY(-10px);
+.coddy-window-bg {
+	background: linear-gradient(55deg,gray,pink);
+	width: 720px;
+	height: 470px;
+}
+#coddy-window-bg0 {
+	transform: translateX(80px)translateY(0px);
+}
+#coddy-window-bg1 {
+	transform: translateX(240px)translateY(-250px);
 }
 .coddy-window{
-	animation: fadeout 2s;
 	display: flex;
 	background: black;
 	width: 700px;
 	height: 450px;
-	border-radius: 10px;
+	border-radius: 0px;
 }
 #coddy-window0 {
-	animation: fadeout 2s;
-	transition: 1s;
 	background-image: url(screenshots/0.png);
-	transform: translateX(80px)translateY(-300px);
+	transform: translateX(10px)translateY(10px);
 }
 #coddy-window1 {
-	animation: fadeout 2s;
 	background-image: url(screenshots/1.png);
-	transition: 1s;
-	transform: translateX(240px)translateY(10px);
+	transform: translateX(10px)translateY(10px);
 }
-#coddy-window0:hover {
-	transition: 1s;
-	transform: translateX(80px)translateY(-310px);
-}
-#coddy-window1:hover {
-	transition: 1s;
-	transform: translateX(240px)translateY(0px);
-}
-.arrow {
-	animation: fadeout 2s;
-	color: white;
+.arrow-bg {
+	color: pink;
 	font-family: Consolas, bold;
 	font-size: 350%;
-	margin-bottom: 60px;
 	text-align: center;
 	transform: rotate(90deg);
 }
+.arrow {
+	color: black;
+	font-family: Consolas, bold;
+	font-size: 350%;
+	margin-bottom: 15px;
+	text-align: center;
+	transform: translateY(-60px)rotate(90deg);
+}
 .divider {
-	animation: fadeout 2s;
 	margin-top: 80px;
 	margin-left: auto;
 	margin-right: auto;
@@ -92,10 +100,6 @@ h1,h2,h3,h4,p,a {
 }
 #author {
 	text-align: center;
-}
-@keyframes fadeout{
-	from{opacity:0}
-	to{opacity:1}
 }
 @media (min-width:0px) and (max-width:1000px) {
 h1,h2,h3,h4,p,a,#logo,.arrow {
