@@ -49,12 +49,14 @@ h1,h2,h3,h4,p,a {
 	background: linear-gradient(55deg,gray,pink);
 	width: 720px;
 	height: 470px;
+	margin-left: auto;
+	margin-right: auto;
 }
 #coddy-window-bg0 {
-	transform: translateX(80px)translateY(0px);
+	transform: translateY(0px);
 }
 #coddy-window-bg1 {
-	transform: translateX(240px)translateY(-250px);
+	transform: translateY(-250px);
 }
 .coddy-window{
 	display: flex;
@@ -105,26 +107,9 @@ h1,h2,h3,h4,p,a {
 h1,h2,h3,h4,p,a,#logo,.arrow {
 	font-family: Arial;
 }
-.coddy-window {
-	width: 350px;
-	height: 225px;
-	background-size: 100%;
-}
-#coddy-window0 {
-	transform: translateX(2px)translateY(-100px);
-	background-image: url(screenshots/0.png);
-}
-#coddy-window1 {
-	transform: translateX(17px)translateY(0px);
-	background-image: url(screenshots/1.png);
-}
-#coddy-window0:hover {
-	transform: translateX(2px)translateY(-100px);
-}
-#coddy-window1:hover {
-	transform: translateX(17px)translateY(0px);
-}
-.article {
+.coddy-window-bg {
+	display: none;
+}.article {
 	font-size: 260%;
 	line-height: 70px;
 }
