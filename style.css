@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,700&display=swap');
+
 body {
 	user-select: none;
 	background: white;
 }
 h1,h2,h3,h4,p,a {
-	font-family: Consolas;
+	font-family: Consolas, bold;
 	color: black;
 	text-decoration: none;
 }
@@ -11,11 +13,23 @@ h1,h2,h3,h4,p,a {
 	color: white;
 	width: 160px;
 	background: linear-gradient(55deg,gray,pink);
-	font-family: Consolas, bold;
+	font-family: 'Noto Sans', sans-serif;
 	margin-top: 30px;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
+}
+#underlogo {
+	color: black;
+	font-family: 'Noto Sans', sans-serif;
+	margin-top: 30px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+#underlogo-accent {
+	background: linear-gradient(55deg,gray,pink);
+	color: white;
 }
 .gr-bg {
 	color: white;
@@ -92,16 +106,29 @@ h1,h2,h3,h4,p,a {
 	margin-top: 80px;
 	margin-left: auto;
 	margin-right: auto;
-	background: white;
+	background: black;
 	border-radius: 10px;
 	width: 60%;
 	height: 10px;
 }
+footer {
+	height: 100px;
+	background: linear-gradient(55deg,gray,pink);
+	margin-bottom: -30px;
+	margin-right: -8px;
+	margin-left: -30px;
+}
 #shorter {
 	margin-top:-220px;
 }
-#author {
+#footer-text {
+	font-family: 'Noto Sans', sans-serif;
+	color: white;
 	text-align: center;
+}
+.footer-link {
+	font-family: 'Noto Sans', sans-serif;
+	color: white;
 }
 ::-webkit-scrollbar {
 	width: 10px;
