@@ -38,14 +38,6 @@
 	<footer>
 		<h1 id='footer-text'><a href='https://t.me/loadycode' class='footer-link'>telegram</a> <a href='https://github.com/loadycode' class='footer-link'>github</a><br>2020-2021 loadycode</h1>
 	</footer>
-	<script>
-		// service worker for pwa work
-		if (navigator.serviceWorker.controller) 
-			{console.log('[PWA Builder] active service worker found, no need to register')}
-		else
-		{navigator.serviceWorker.register('sw.js',{scope:'./'}).then(function(reg) {
-    	console.log('Service worker has been registered for scope:'+ reg.scope);});}
-	</script>
 </body>
 
 </html>
