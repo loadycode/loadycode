@@ -176,20 +176,55 @@ h1,h2,h3,h4,p,a {
 	background: linear-gradient(55deg,gray,pink);
 }
 @media (min-width:0px) and (max-width:1000px) {
-h1,h2,h3,h4,p,a,#logo,.arrow {
-	font-family: Arial;
-}
-.coddy-window-bg {
-	display: none;
-}.article {
-	font-size: 260%;
-	line-height: 70px;
-}
-.description {
-	font-size: 200%;
-	line-height: 50px;
-}
-#shorter {
-	margin-top: -50px;
-}
+	h1,h2,h3,h4,p,a,#logo,.arrow {
+		font-family: Arial;
+	}
+	.coddy-window-bg {
+		display: none;
+	}
+	#contacts-article {
+		padding: 0%;
+	}
+	#bg01 {
+		background: white;
+		margin-left: 0%;
+		width: 100%;
+		height: 400px;
+	}
+	#bg02 {
+		justify-content: center;
+		background: white;
+		margin-left: 0%;
+		width: 100%;
+		height: 400px;
+	}
+	.contacts {
+		color: black;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+	#contacts-article {
+		color: black;
+		padding: 0;
+		margin-left: 0;
+		text-align: center;
+	}
+	.article {
+		font-size: 260%;
+		line-height: 70px;
+	}
+	.description {
+		font-size: 200%;
+		line-height: 50px;
+	}
+	#shorter {
+		margin-top: -50px;
+	}
+	.tab0 {
+		margin-bottom: 50px;
+	}
+	#footer-since {
+		margin-top: -120px;
+	}
 }
