@@ -5,14 +5,9 @@ body {
 h1, h2, h3, p, a {
 	color:  black;
 	font-family: Consolas;
+	text-align: center;
 }
 
-#logo {
-	text-align: center;
-}
-#underlogo {
-	text-align: center;
-}
 .divider {
 	margin-left: auto;
 	margin-right: auto;
@@ -21,14 +16,9 @@ h1, h2, h3, p, a {
 	background: black;
 }
 
-.arrow {
-	text-align: center;
-}
-
 #coddy-article {
 	margin-top: 100px;
-	text-align: center;
 }
-#coddy-description {
-	text-align: center;
+#coddy-link {
+	margin-bottom: 50px;
 }
